@@ -50,7 +50,7 @@ The portfolio avoids excessive concentration and maintains healthy exposure disp
 * Stress sensitivity is asymmetric: correlation shocks pose greater risk than volatility alone.
 * Exposure structure is sound: no immediate need for rebalancing.
 
-# Recommended Next Steps
+# Optimization
 1. Integrate currency VaR: express risk in monetary terms for executive reporting.
 2. Scenario testing: simulate market events(e.g demand shocks, price spikes).
 3. Optimize weights: explore risk-adjusted return strategies or stess-resilient allocations.
