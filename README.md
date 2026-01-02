@@ -11,8 +11,8 @@ This project builds a production-grade risk analytics framework for electricity 
 
 # Portfolio Risk Profile
 ## Return and Volatility
-* Daily expected return: *****************
-* Daily volatility: **********************
+* Daily expected return: 0:067%
+* Daily volatility: 0.29%
 * These figures suggest a low-risk portfolio with modest return generation, suitable for capital preservation strategies.
 ## VaR and ES
 
