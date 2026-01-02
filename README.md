@@ -12,6 +12,12 @@ This project builds a production-grade risk analytics framework for electricity 
 * Exposure distribution is well-balanced, with no excessive concentration in individual instruments.
 
 # Portfolio Risk Profile
+## Portfolio features
+* MBL: Monthly Baseload
+* MPL: Monthly Peakload
+* Q: Quarterly product
+* H: Hourly feature
+  
 ## Return and Volatility
 * Daily expected return: 0:067%
 * Daily volatility: 0.29%
