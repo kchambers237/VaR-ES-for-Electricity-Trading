@@ -1,0 +1,6 @@
+alpha: 0.99
+n_days: 1000
+n_mc: 10000
+ewma_lambda: 0.94
+KPI_filename: "KPI.xlsx"
+dashboard_name: "electricity_risk_report.html"
