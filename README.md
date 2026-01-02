@@ -23,7 +23,7 @@ This project builds a production-grade risk analytics framework for electricity 
 
 # Model Validation
 ## Backtesting Results
-![model_and_validation](figures/model_and_validation.png)
+![model_and_validation](figures/model_validation.png)
 * The model passes both the Kupiec and Christoffersen tests, indicating accurate coverage and independence of breaches.
 * No evidence of autocorrelation  or regime shifts in risk behaviour.
 
