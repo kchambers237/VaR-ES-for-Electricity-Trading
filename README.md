@@ -2,10 +2,11 @@
 ![risk_framework](figures/risk_framework_view_2.png)
 
 # Project Aim
-This project builds a production-grade risk analytics framework for electricity trading portfolios. It computes Value-at-Risk (VaR) and Expected Shortfall (ES) using historical, parametric (EWMA), and Monte Carlo methods. The system integrates market data, exposure-based weighting, backtesting, stress testing, and interactive dashboarding. Thus, delivering a robust, transparent, and scalable solution for portfolio risk assessment.
+This project builds a production-grade risk analytics framework for electricity trading portfolios. It computes Value-at-Risk(99%) (VaR) and Expected Shortfall (ES) using historical, parametric (EWMA), and Monte Carlo methods. The system integrates market data, exposure-based weighting, backtesting, stress testing, and interactive dashboarding. Thus, delivering a robust, transparent, and scalable solution for portfolio risk assessment.
 [Full technical documentation (PDF)](docs/VaR_and_ES.pdf)
 
 # Executive Summary
+[Risk_framework (HTML)](docs/electricity_risk_report.html)
 * This portfolio demonstrates strong statistical reliability, with consistent VaR estimates accross methodologies and robust backtesting results.
 * Daily expected return is modestly positive, while volatility remains low, indicating a stable risk-return profile.
 * Stress testing reveals sensitivity to correlation shocks, suggesting potential vulnerability under systemic market conditions.
