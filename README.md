@@ -55,4 +55,9 @@ The portfolio avoids excessive concentration and maintains healthy exposure disp
 2. Scenario testing: simulate market events(e.g demand shocks, price spikes).
 3. Optimize weights: explore risk-adjusted return strategies or stess-resilient allocations.
 
+## Implementation
+* Language: Python
+* Core stack: NumPy, pandas, SciPy, plotly
+* Design: Modular, fully reproducible pipeline
+* Focus: Transparency over black-box optimization
 
