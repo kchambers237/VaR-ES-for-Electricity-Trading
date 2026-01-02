@@ -1,7 +1,9 @@
 # VaR-ES-for-Electricity-Trading
+![risk_framework](figures/risk_framework_view_2.png)
 
 # Project Aim
 This project builds a production-grade risk analytics framework for electricity trading portfolios. It computes Value-at-Risk (VaR) and Expected Shortfall (ES) using historical, parametric (EWMA), and Monte Carlo methods. The system integrates market data, exposure-based weighting, backtesting, stress testing, and interactive dashboarding. Thus, delivering a robust, transparent, and scalable solution for portfolio risk assessment.
+[Full technical documentation (PDF)](docs/VaR_and_ES.pdf)
 
 # Executive Summary
 * This portfolio demonstrates strong statistical reliability, with consistent VaR estimates accross methodologies and robust backtesting results.
@@ -15,15 +17,13 @@ This project builds a production-grade risk analytics framework for electricity 
 * Daily volatility: 0.29%
 * These figures suggest a low-risk portfolio with modest return generation, suitable for capital preservation strategies.
 ## VaR and ES
-
-************* TABLE  **************
+![risk_profile](figures/risk_profile.png)
 * All three methodologies yield consistent results, reinforcing confidence in the model calibration.
 * ES values exceed VaR, as expected, and remain within a narrow band accross methods.
 
 # Model Validation
 ## Backtesting Results
-
-************* TABLE  **************
+![model_and_validation](figures/model_and_validation.png)
 * The model passes both the Kupiec and Christoffersen tests, indicating accurate coverage and independence of breaches.
 * No evidence of autocorrelation  or regime shifts in risk behaviour.
 
@@ -38,7 +38,7 @@ This project builds a production-grade risk analytics framework for electricity 
 
 
 # Exposure Structure
-************* TABLE  **************
+![exposure_structure](figures/exposure_structure.png)
 * No single instrument exceeds 5% of total exposure.
 * Distribution is well-balanced accross Monthly Baseload and Monthly Peakload.
 * Top 3 exposures account for ~13% of portfolio, within acceptable diversification thresholds.
