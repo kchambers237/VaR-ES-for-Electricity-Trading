@@ -29,11 +29,11 @@ This project builds a production-grade risk analytics framework for electricity 
 
 ## Stress Testing
 ## Volatility Stress (x2)
-* Portfolio volatility increases from ************** to ***************
+* Portfolio volatility increases from 0.29% to 0.58%
 * Linear scaling confirms proportional sensitivity to volatility shocks.
 
 ## Correlation Stress (+0.2)
-* Volatility rises to ********************************, more than triple the base level.
+* Volatility rises to 0.92%, more than triple the base level.
 * Indicates latent concentration risk and exposure to systemic co-movement.
 
 
